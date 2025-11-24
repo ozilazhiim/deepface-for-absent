@@ -22,7 +22,6 @@ async def read_image(file: UploadFile):
 def home():
     return {"message": "DeepFace API is Running. Access /docs for UI."}
 
-# --- 2. ENDPOINT ANALYZE (Umur, Gender, Emosi) ---
 @app.post("/analyze")
 async def analyze_face(file: UploadFile = File(...)):
     try:
