@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv/
+.env
+
+weights/
+*.h5
+*.json
+.deepface/
+
+.DS_Store
+Thumbs.db
